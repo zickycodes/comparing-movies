@@ -1,0 +1,117 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family:courier,arial,helvetica
+}
+ .header {
+  background-color: lightseagreen;
+  padding: 2rem;
+}
+
+/* Parent Cover */
+ .container {
+   margin-top: .7rem;
+   /* border: 1px solid grey; */
+   /* height: 100vh; */
+   display: flex;
+   justify-content: space-between;
+ }
+
+ #one, #two {
+   width: 40%;
+ }
+
+ .autocomplete , .autocomplete1 {
+   width: 100%;
+   /* border: 1px solid salmon; */
+   margin: .2rem;
+   /* background: #333333; */
+ }
+
+ .container input {
+   display: inline-block;
+   width: 100%;
+   background-color: #f1f1f1;
+   border: 0;
+   padding: .7rem;
+   color: #599;
+ }
+ .container input:focus {
+   outline-color: lightseagreen;
+ }
+
+ .dropdown-menu, .dropdown-menu1{
+  display: none;
+ }
+
+ .dropdown-menu.active, .dropdown-menu1.active {
+   display: block;
+   margin-top: .2rem;
+   width: 100%;
+   /* border-top: .125rem solid #599; */
+ }
+
+ .dropdown-results, .dropdown-results1 {
+   width: 100%;
+ }
+
+ a {
+   display: block;
+   width: 95%;
+   display: flex;
+   margin: .5rem;
+   color: #599;
+
+ }
+
+ a img {
+   width: 20%;
+ } 
+
+ a h6 {
+   width: 78%;
+   padding: .3rem;
+ }
+
+ a:hover {
+  background-color: #f1f1f1
+}
+
+/* Second House */
+#summary, #summary1 {
+  width: 100%;
+  /* border: lightseagreen 1px solid; */
+}
+
+#summary img, #summary1 img {
+  width: 100%;
+}
+
+.media-content .content h1 {
+  background-color: rgba(32, 178, 171, 0.775);
+   margin: .2rem;
+   padding: .2rem;
+}
+
+.media-content .content h4 {
+  background-color: rgba(32, 178, 171, 0.775);
+  margin: .2rem;
+  padding: .2rem;
+}
+
+.media-content .content p {
+  background-color: rgba(32, 178, 171, 0.775);
+  margin: .2rem;
+ padding: .2rem;
+}
+
+.is-primary {
+  background-color: rgba(32, 178, 171, 0.775);
+  margin: .2rem;
+  padding: .2rem;
+}
